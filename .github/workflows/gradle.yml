@@ -40,3 +40,6 @@ jobs:
           files: |
             ./build/libs/*.jar
 
+on:
+  workflow_dispatch:
+  push:
